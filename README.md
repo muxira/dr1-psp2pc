@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐰 dr1-save-bridge
+# 🐻 dr1-save-bridge
 
 **Move your Danganronpa: Trigger Happy Havoc save from PSP to PC (Steam)**
 
