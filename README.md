@@ -34,9 +34,7 @@ slot — as if you had played there. No PC save needed as a template.
 > checked against real saves: a PSP prologue save converts to a game state that
 > is identical to a real PC prologue save on 17812 of the 17816 transferred bytes
 > (the rest are the script offsets, see [Limitations](#-limitations)).
->
-> It has not been tested in the game yet. Run it on a copy the first time —
-> rollback is one file copy, see [Rollback](#-rollback).
+
 
 ## 📦 What you need
 
