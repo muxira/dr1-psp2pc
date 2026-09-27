@@ -1,0 +1,16 @@
+# personal data never goes into git: saves, keys, game files, tools
+saves/
+backups/
+tools/
+new-session*.json
+*.vfs
+*.bak
+*.bin
+*.BIN
+*.SFO
+*.PNG
+gamekey*
+keys.txt
+*.exe
+__pycache__/
+*.pyc

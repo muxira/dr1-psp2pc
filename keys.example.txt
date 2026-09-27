@@ -1,0 +1,21 @@
+# Keys for dr1_save_bridge.py.  They are not part of this repository: you supply
+# them.  Easiest is to let the tool find them in files you already have:
+#
+#   python dr1_save_bridge.py keys --import <PPSSPP source folder> <PPSSPP log>
+#
+# or fill in the values below (32 hex digits each) and save this file as keys.txt.
+# keys.txt is ignored by git.  Never commit or share it.
+#
+# PSP savedata cipher, the same for every game:
+#   key19CC, key19DC    PPSSPP source, Core/HLE/sceChnnlsv.cpp
+#   kirk_key_12         Kirk key vault slot 0x12, PPSSPP source, ext/libkirk/kirk_engine.c
+#   kirk_key_64         Kirk key vault slot 0x64, same file
+# Game key of your release (NPJH50515): run the game in PPSSPP with logging on,
+# load or save once, and look for "Game key (hex):" in the log.
+#
+# `python dr1_save_bridge.py keys` checks every value against its fingerprint.
+game_key =
+key19CC =
+key19DC =
+kirk_key_12 =
+kirk_key_64 =
